@@ -78,7 +78,8 @@ class Pokemons extends React.Component {
             borderRadius: 10,
             borderColor: '#ded126',
             margin: 5,
-            marginLeft: 30
+            marginLeft: 30,
+            color: 'white'
           }}
           placeholder = 'Name or Id of the Pokémon'
           onChangeText = {(text)=> this.setState({nome: text})}
