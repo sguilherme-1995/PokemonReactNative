@@ -49,11 +49,6 @@ class Pokemons extends React.Component {
       )
     }, 2500);
   }
-
-
-  pokemonsDoMesmoTipo = () => {
-
-  }
   
   efeitoDeHabilidade = () => {
     this.state.habilidade.map(hab =>{
@@ -67,7 +62,7 @@ class Pokemons extends React.Component {
 
   render(){ 
     return(
-      <ScrollView style={{flex: 1, marginVertical: 50}}>
+      <ScrollView style={{flex: 1, marginVertical: 50, backgroundColor: '#02205c'}}>
         <View style={{
           flexDirection: 'column', 
           justifyContent: "center", 
@@ -108,7 +103,7 @@ class Pokemons extends React.Component {
           <View style={{
             width: 350, 
             height: 260, 
-            backgroundColor: '#f0f0f0', 
+            backgroundColor: '#0c2963', 
             borderRadius: 10, 
             marginVertical: 10,
             justifyContent: "center",
